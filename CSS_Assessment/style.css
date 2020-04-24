@@ -1,0 +1,37 @@
+div{ 
+	text-align:center;
+	font-size: 40px;
+}
+
+ .navbar {
+	width: 100%;
+	background: grey;
+}
+
+.content{
+	margin-top: 20px;
+	overflow:auto;
+}
+
+#left{
+	background: blue;
+	float: left;
+	width: 50%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#right{
+	background: red;
+	float: right;
+	width: 25%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.footer{
+	background: green;
+	margin-top: 50px;
+	width: 100%;
+	clear: both;
+}
