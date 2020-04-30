@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/webb.png");
+    background-repeat: repeat-y repeat -x;
+}
+
+#profilepicture{
+    float: left;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+}
+
+.navbar{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #4aaaa5;
+}
+
+.navbar .navbar-brand{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+.navbar-nav{
+    color: #4aaaa5;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    clear: both;
+    height: 50px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 10px solid #4aaaa5;
+}
+
+.mainContent{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.portfolioImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.projectLabel{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    padding: 10px;
+    height: 35 px;
+    line-height: 15px;
+}
+#portfolioHeader{
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+button{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+}
